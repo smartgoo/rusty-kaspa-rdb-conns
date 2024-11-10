@@ -1,0 +1,11 @@
+[package]
+name = "rusty-kaspa-db-conns"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+kaspa-consensus = { git = "https://github.com/smartgoo/rusty-kaspa.git", branch = "rdb-conns" }
+kaspa-consensus-core = { git = "https://github.com/smartgoo/rusty-kaspa.git", branch = "rdb-conns" }
+kaspa-database = { git = "https://github.com/smartgoo/rusty-kaspa.git", branch = "rdb-conns" }
+kaspad = { git = "https://github.com/smartgoo/rusty-kaspa.git", branch = "rdb-conns" }
+rocksdb = "0.22.0"
